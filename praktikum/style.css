@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+}
+nav{
+    position: relative;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    height: 60px;
+    border: red;
+    border-block-end-width: 5px;
+    box-shadow: -1px -7px grey;
+}
+nav ul{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 10%
+}
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav img{
+    position: relative;
+    width: 45px;
+    height: auto;
+    left: 7.5%;
+}
+nav ul li a:hover{
+    color: rgb(255, 57, 57);
+    border-top: 5px solid rgb(255, 57, 57);
+    padding: 15px 0px;
+    transition-duration: 0.3s;
+}
+div.header{
+    background: url("moker.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    float: left;
+    background-attachment: fixed;
+}
+div.gelap{
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    opacity: 0.65;
+    float: left;
+}
+div.conten{
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    top: 90px;
+    left: 32.5%;
+    position: absolute;
+    float: center;
+}
+div.header img{
+    width: 125px;
+    height: auto;
+    padding-top: 50px;
+}
+div.header p{
+    font-size: 45px;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+}
+div.about{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-color: rgb(110, 110, 110);
+}
+div.about .kiri{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+div.about .kiri p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+div.about .kiri img.about{
+    width: 550px;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 100px;
+    position: absolute;
+}
+div.about .kiri img.template{
+    width: 610px;
+    height: 370px;
+    padding-top: 10px;
+    padding-left: 70px;
+    position: relative;
+}
+div.about .kanan{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+div.about .kanan p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20;
+    padding-left: 40px;
+    color: #fff;
+    border-left:5px solid black ;
+    margin-top: 150px;  
+}
+div.makanan{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-color: black;
+    border-bottom: 5px solid #fff;
+}
+div.makanan .judul{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+div.makanan .judul p{
+    text-align: left;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #fff;
+    font-size: 40;
+}
+div.makanan .onde{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+div.makanan .onde img{
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    margin-left: 130px;
+    border-radius: 50%;
+}
+div.makanan .onde p.desk h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.makanan .onde p.desk{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+div.makanan .wader{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+div.makanan .wader img{
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    margin-left: 130px;
+    border-radius: 50%;
+}
+div.makanan .wader p.desk h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.makanan .wader p.desk{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+div.makanan .sate{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+div.makanan .sate img{
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    margin-left: 130px;
+    border-radius: 50%;
+}
+div.makanan .sate p.desk h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.makanan .sate p.desk{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+div.wisata{
+    width: 100%;
+    height: 650px;
+    float: left;
+    background: url("wisata.png") no-repeat center;
+    background-size: cover;
+}
+div.judul{
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+}
+div.judul p{
+    text-align: left;
+    font-family: sans-serif;
+    color: #fff;
+    font-size:50px;
+    margin-left: 40px;
+    text-transform: uppercase; 
+}
+div.wisata .gelap{
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    opacity: 0.65;
+    float: left;
+}
+div.wisata .budha{
+    width: 33%;
+    height: 650px;
+    float: left;
+    position: absolute;
+}
+div.wisata .budha p.judul{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+div.wisata .budha p.desc{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+div.wisata .gunung{
+    width: 33%;
+    height: 650px;
+    float: left;
+    position: absolute;
+    left: 37%;
+}
+div.wisata .gunung p.judul{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 60px;
+    text-transform: uppercase;
+    float: left;
+}
+div.wisata .gunung p.desc{
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 50px;
+}
+div.wisata .air{
+    width: 33%;
+    height: 650px;
+    float: left;
+    position: absolute;
+    left: 67%;
+}
+div.wisata .air p.judul{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 60px;
+    text-transform: uppercase;
+    float: left;
+}
+div.wisata .air p.desc{
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 50px;
+}
+div.budaya{
+    width: 100%;
+    height: 650px;
+    float: left;
+    background-color: rgb(223, 223, 223);
+}
+div.budaya .kiri{
+    width: 50%;
+    height: 650px;
+    float: left;
+    text-align: center;
+    
+}
+div.budaya .kiri p.judul{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+div.budaya .kiri img{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+div.budaya .kiri p.desc{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+div.budaya .kanan{
+    width: 49%;
+    height: 650px;
+    float: left;
+    text-align: center;
+    border-left: 5px solid black;
+    
+}
+div.budaya .kanan p.judul{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+div.budaya .kanan img{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+div.budaya .kanan p.desc{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+div.footer{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: rgb(22, 22, 22);
+    float: left;
+}
+div.footer span{
+    font-size: 50px;
+    color: #fff;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 50px; 
+}
+div.footer span:hover{
+    color: rgb(255, 57, 57);
+    padding: 15px 0px;
+    transition-duration: 0.3s;
+}
+div.footer p{
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
